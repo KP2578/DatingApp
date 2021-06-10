@@ -20,7 +20,7 @@ namespace API.Controllers
         }
 
 
-// retuning list of users
+// returning list of users
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         {

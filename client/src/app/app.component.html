@@ -1,0 +1,8 @@
+<h1>{{title}}</h1>
+
+<ul>
+    <!-- Displaying the users from sql-->
+    <li *ngFor='let user of users'>
+        {{user.id}} - {{user.userName}}
+    </li>
+</ul>
